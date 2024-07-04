@@ -12,7 +12,7 @@
         >
 
     <title>
-        Panel de control. Bee Personal CRM
+        Panel de usuario. Bee Personal CRM
     </title>
 
     <link 
@@ -65,11 +65,11 @@
 <ul class="menu">
 
     <li>
-        <a href="http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/panelDeControl.php"><b>Panel de control</b></a>
+        <a href="http://localhost/Bee-CRM/Bee-Personal-CRM/panelDeControl.php"><b>Panel de control</b></a>
     </li>
 
     <li>
-        <a href="http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/listaContactos.php"><b>Contactos</b></a>
+        <a href="http://localhost/Bee-CRM/Bee-Personal-CRM/listaContactos.php"><b>Contactos</b></a>
     </li>
 
     <li>
@@ -85,7 +85,7 @@
     </li>
     
     <li>
-        <i class="fa-solid fa-door-open" style="color: #ffffff;"></i>
+    <i class="fa-solid fa-door-open" style="color: #ffffff;"></i>
     </li>
 
 </ul>
@@ -101,72 +101,43 @@
     <div class="panelDeControl1">
 
             <h2>
-                Próximos eventos
+                Información de tu cuenta
             </h2>
 
 
         <div class="bloqueProximosEventos">
 
 
-            <h3>
-                Mayo 2024
+            <h3 id="nombreUsuario">
+                Nombre
             </h3>
 
             <p>
-                29/04/2024 Cumpleaños de Manuel Pérez Collantes.
+                Manuel Pérez Collantes
             </p>
 
 
             <h3>
-                Mayo 2024
+                Email
             </h3>
             <p>
-                Ningún evento este mes.
+                manuelperez@ejemplo.com
             </p>
 
 
             <h3>
-                Mayo 2024
+                Contraseña
             </h3>
 
-            <p>
-                Ningún evento este mes.
-            </p>
+            <button onclick="window.location.href='http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/cambiarContraseña.php'">
+                <b>Cambiar contraseña</b>
+            </button>
+
+
 
         </div>
 
     </div>
-
-
-
-        <div class="panelDeControl2">
-
-            <h2>
-                Tus contactos
-            </h2>
-
-            <div class="bloqueTusContactos">
-
-
-                <h3>
-                    3 contactos
-                </hr>
-
-                </br></br>
-
-
-
-                <button class="botonesContacto" onclick="window.location.href='http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/listaContactos.php'">
-                        <b>
-                            Ver contactos
-                        </b>
-                </button>
-
-                </br>
-
-            </div>
-
-        </div>
 
 
 
@@ -198,5 +169,3 @@
 <script src="script.js"></script>
 
 </body>
-
-</html>

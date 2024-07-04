@@ -62,15 +62,15 @@
             <ul class="menu">
 
                 <li>
-                    <a href="http://localhost/Bee-Personal-CRM/Vista/index.php"><b>Inicio</b></a>
+                    <a href="http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/index.php"><b>Inicio</b></a>
                 </li>
 
                 <li>
-                    <a href="http://localhost/Bee-Personal-CRM/Vista/ingresar.php"><b>Ingresar</b></a>
+                    <a href="http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/ingresar.php"><b>Ingresar</b></a>
                 </li>
 
                 <li>
-                    <button class="botonAmarillo"><a href="http://localhost/Bee-Personal-CRM/Vista/registro.php" class="enlaceBoton"><b>Registrarse</b></a></button>
+                    <button class="botonAmarillo" onclick="window.location.href='http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/registro.php'"><b>Registrarse</b></button>
                 </li>
 
             </ul>

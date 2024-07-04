@@ -12,7 +12,7 @@
         >
 
     <title>
-        Crear Contacto. Bee Personal CRM
+        Editar contacto. Bee Personal CRM
     </title>
 
     <link 
@@ -72,10 +72,6 @@
                 </li>
 
                 <li>
-                    <a href="http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/crearContacto.php"><b>Crear contacto</b></a>
-                </li>
-
-                <li>
                     <i class="fa-solid fa-bell" style="color: #ffffff;"></i>
                 </li>
 
@@ -85,6 +81,10 @@
                 
                 <li>
                 <i class="fa-solid fa-door-open" style="color: #ffffff;"></i>
+                </li>
+
+                <li>
+                    <a href="http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/crearContacto.php"><b>Crear contacto</b></a>
                 </li>
 
             </ul>
@@ -100,11 +100,18 @@
             <div class="formularioContacto">
 
                 <h2>
-                    Agregar contacto nuevo
+                    Editar contacto
                 </h2>
 
 
                 <form id="CreateContact">
+
+                    <div>
+                        <label for="image">Foto de contacto</label><br>
+                        <input type="file" id="botonFichero" name="file"/><br><br>
+                    </div>
+
+
 
                     <div>
                         <label for="name">Nombre</label><br>
@@ -136,7 +143,7 @@
                         <input type="tel"/><br><br>
                     </div>
 
-                    <div class="botonesContacto">
+                    <div class="botonesPerfil">
 
                             <button type="submit" class="botonContacto" id="crear">
                                     <b>

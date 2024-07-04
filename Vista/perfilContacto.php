@@ -65,11 +65,11 @@
 <ul class="menu">
 
     <li>
-        <a href="http://localhost/Bee-Personal-CRM/Vista/panelDeControl.php"><b>Panel de control</b></a>
+        <a href="http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/panelDeControl.php"><b>Panel de control</b></a>
     </li>
 
     <li>
-        <a href="http://localhost/Bee-Personal-CRM/Vista/listaContactos.php"><b>Contactos</b></a>
+        <a href="http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/listaContactos.php"><b>Contactos</b></a>
     </li>
 
     <li>
@@ -104,7 +104,17 @@
             
             <p>
                 <b>
-                Mercedes Martín Puig (Merche)
+                <span>
+                    Mercedes
+                </span>
+                
+                <span>
+                    Martín Puig
+                </span>
+                
+                <span>
+                    (Merche)
+                </span>
                 </b>
             </p>
 
@@ -116,18 +126,54 @@
                 mercedes.martin@gmail.com
             </p>
 
+            <p>
+                611 222 333
+            </p>
+
+            <br>
+
+            <div class="botonesPerfil">
+
+                <a href="">
+                    <i class="fa-solid fa-pencil" style="color: #000000;"></i> 
+                </a>
+
+                <a href="">
+                    <i class="fa-solid fa-trash" style="color: #000000;"></i>
+                </a>
+
+                </div>
+
+            <br>
+
         </div>
 
         <div class="notasPerfil">
 
             <div class="tituloNotas">
-                <p><b>Notas</b></p>
+                <p>
+                    <b>
+                        Notas
+                    </b>
+                </p>
+
+                <div class="botonesPerfil">
+                    <a href="">
+                        <i class="fa-solid fa-pencil" style="color: #ffffff;"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-solid fa-trash" style="color: #ffffff;"></i>
+                    </a>
+
+                </div>
             </div>
 
             <div class="textoNotas">
-                <p>Su hija se llama Julieta.</p>
-                <p>Max es su chihuahua.</p>
-                </br></br></br></br></br>
+                <p>
+                    Su hija se llama Julieta. Max es su chihuahua.
+                </p>
+
             </div>
 
         </div>
@@ -155,8 +201,15 @@
                     Cumpleaños Mercedes
                 </p>
 
-                <i class="fa-solid fa-pencil" style="color: #000000;"></i>
-                <i class="fa-solid fa-trash" style="color: #000000;"></i>
+                    <div class="botonesRecordatorios">
+                        <a href="">
+                            <i class="fa-solid fa-pencil" style="color: #000000;"></i>
+                        </a>
+
+                        <a href="">
+                            <i class="fa-solid fa-trash" style="color: #000000;"></i>
+                        </a>
+                    </div>
 
             </div>
 

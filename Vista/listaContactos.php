@@ -64,11 +64,15 @@
             <ul class="menu">
 
                 <li>
-                    <a href="http://localhost/Bee-Personal-CRM/Vista/panelDeControl.php"><b>Panel de control</b></a>
+                    <a href="http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/panelDeControl.php"><b>Panel de control</b></a>
                 </li>
 
                 <li>
-                    <a href="http://localhost/Bee-Personal-CRM/Vista/listaContactos.php"><b>Contactos</b></a>
+                    <a href="http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/listaContactos.php"><b>Contactos</b></a>
+                </li>
+
+                <li>
+                    <a href="http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/crearContacto.php"><b>Crear contacto</b></a>
                 </li>
 
                 <li>
@@ -217,7 +221,7 @@
 
 </div>
 
-<button class="botonCrearContacto"><a href="http://localhost/Bee-Personal-CRM/Vista/crearContacto.php"><b>Crear contacto</b></a></button>
+<button onclick="window.location.href='http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/crearContacto.php'" class="botonCrearContacto"><b>Crear contacto</b></button>
 
 
 

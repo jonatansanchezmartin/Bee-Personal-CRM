@@ -12,7 +12,7 @@
         >
 
     <title>
-        Registro. Bee Personal CRM
+        Cambio de contraseña. Bee Personal CRM
     </title>
 
     <link 
@@ -70,9 +70,8 @@
                 </li>
 
                 <li>
-                    <button class="botonAmarillo" onclick="window.location.href='http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/registro.php'"><b>Registrarse</b></button>
+                    <button class="botonAmarillo"><a href="http://localhost/Bee-CRM/Bee-Personal-CRM/Vista/registro.php" class="enlaceBoton"><b>Registrarse</b></a></button>
                 </li>
-
 
             </ul>
 
@@ -87,24 +86,15 @@
             <div class="bloqueFormulario">
 
                 <h2>
-                    Regístrate ahora
+                    Cambiar contraseña
                 <h2>
 
 
                 <form>
 
-                    <div>
-                        <label for="Name">Nombre</label><br>
-                        <input type="text" id="Name"/><br><br>
-                    </div>
 
                     <div>
-                        <label for="email">Email</label><br>
-                        <input type="email"/><br><br>
-                    </div>
-
-                    <div>
-                        <label for="password">Contraseña</label><br>
+                        <label for="password">Contraseña nueva</label><br>
                         <input type="password"/><br><br>
                     </div>
 
@@ -167,5 +157,3 @@
 </body>
 
 </html>
-
-
